@@ -3,7 +3,7 @@
   "home": {
     "title": "Ark Nova Solo Helper",
     "play1": "Speel de <a href='https://boardgamegeek.com/thread/2823056/rno-alternative-solo-mode' target='_blank' rel='noopener'><b>A.R.N.O. 2.0 Solo Mode</b></a> (Niet officieel) of <a href='https://boardgamegeek.com/boardgame/342942/ark-nova' target='_blank' rel='noopener'><b>Ark Nova</b></a>. In tegenstelling tot de officiële solo mode, simuleert deze aanvullend(e) tegenstander(s) zoals bij een multi-player spel.",
-    "play2": "Om de solo mode te kunnen spelen heb je alleen het basisspel nodig. Deze helper-app vervangt de ARNO spelkaarten en de dobbelsteen en houdt ARNO's voortgang bij.",
+    "play2": "Om de solo mode te kunnen spelen heb je alleen het basisspel nodig. Deze helper-app vervangt de ARNO spelkaarten en solobord en houdt ARNO's voortgang bij.",
     "feedback": "Discussie en Feedback:"
   },
   "setup": {
@@ -30,16 +30,16 @@
   },
   "setupARNO": {
     "title": "ARNO Setup",
-    "text1": "ZEt het spel klaar volgens het aantal spelers (inclusief ARNO(s)). Een menselijke speler zal de startspeler zijn.",
+    "text1": "Zet het spel klaar volgens het aantal spelers (inclusief ARNO(s)). Een menselijke speler zal de startspeler zijn.",
     "text2": "Elke ARNO start met <b>-3 conservatie punten</b> en populariteitspunten volgens de spelersvolgorde.",
     "text2-appeal": "Bijvoorbeeld: is ARNO de 3e speler, dan start hij met 2 populariteitspunten.",
     "text3": "Elke ARNO ontvangt de spelonderdelen van één kleur, een dierentuinkaart (map A), één gesloten Eindtellingskaart en 8 willekeurige Dierentuinkaarten.",
     "text4": "Plaats alle spelerstokens van ARNO’s kleur naast zijn dierentuinkaart.",
     "text5": "ARNO start met één medewerker op zijn notitieboek. Plaats de overige 3 op de daarvoor bestemde plaatsen onder het notitieboek op zijn dierentuinkaart.",
     "text6": "Plaats de Eindtellingskaart op het linker gebied van de dierentuinkaart. Deze verbergt het bouwgebied welke niet nodig is voor ARNO.",
-    "text7": "Sorteer ARNO‘s 8 Dierenuinkaarten volgens het soort:",
+    "text7": "Sorteer ARNO‘s 8 Dierenuinkaarten per categorie:",
     "text7-1": "Verwijder alle sponsorkaarten.",
-    "text8": "Je heb de dobbelsteen en actiekaarten niet nodig."
+    "text8": "Je heb de solokaart en actiekaarten niet nodig."
   },
   "roundPlayer": {
     "title": "Speler | Speler {player}",
@@ -57,8 +57,8 @@
       "note": "Let op: Wanneer ARNO 2 conservatiepunten bereikt, kiest hij er altijd voor een extra medewerker, niet voor een kaartupgrade."
     },
     "actionHelpAssociationWorker": {
-      "title": "Plaast Werker",
-      "text": "Als ARNO al één van zijn medewerkers op deze samenwerkingsopdracht heeft, selecteert hij de volgende hogere opdracht waar nog geen van zijn werkers staat. Eigenlijk gebruikt hij X-markers om de actie te verbeteren; hij plaatst nooit twee werkers op dezelfde actie. Als er geen hogere opdracht beschikbaar is, kiest hij de eerstvolgende beschikbare lagere opdracht.",
+      "title": "Plaast Medewerker",
+      "text": "Als ARNO al één van zijn medewerkers op deze samenwerkingsopdracht heeft, selecteert hij de volgende hogere opdracht waar nog geen van zijn medewerkers staat. Eigenlijk gebruikt hij X-markers om de actie te verbeteren; hij plaatst nooit twee werkers op dezelfde actie. Als er geen hogere opdracht beschikbaar is, kiest hij de eerstvolgende beschikbare lagere opdracht.",
       "chooseDifferent": "Kies een andere samenwerkingsactie:"
     },
     "actionHelpProjectConservationWork": {
@@ -68,7 +68,7 @@
       "conservationProjectSelection": "Conservatieproject Selectie",
       "conservationProjectsHand": "Hoeveel ConservatieProject Kaarten heeft ARNO op zijn dierentuinkaart?",
       "conservationProjectsBoardNoToken": "Hoeveel ConservatieProject Kaarten zijn beschikbaar naast het samenwerkingsbord zonder spelerstokens?",
-      "conservationProjectsBoardAvailable": "Hoeveel ConservatieProject Kaarten zijn beschikbaar naast het samenwerkingsbord welke ARNO nog niet gesupport heeft?",
+      "conservationProjectsBoardAvailable": "Hoeveel ConservatieProject Kaarten zijn beschikbaar naast het samenwerkingsbord welke ARNO nog niet ondersteund heeft?",
       "pick": "Kies Conservatie Project",
       "pickFromHand": "ARNO support de {number}. ConservatieProject Kaart van zijn dierentuinkaart.",
       "pickFromBoardNoToken": "ARNO support de {number}. ConservatieProject naast het samenwerkingsbord zonder spelerstoken.",
